@@ -186,9 +186,6 @@ As a final experiment, **80 translated images** (40 Cow→Horse + 40 Horse→Cow
 
 ## 🖼️ Example Outputs
 
-### DCGAN Generated Samples
-
-![DCGAN Samples](Report/DCGAN_RESULT.png)
 
 ### CycleGAN Translation Results — Cow ↔ Horse
 
