@@ -188,15 +188,15 @@ As a final experiment, **80 translated images** (40 Cow→Horse + 40 Horse→Cow
 
 ### DCGAN Generated Samples
 
-![DCGAN Samples](report/DCGAN_RESULT.png)
+![DCGAN Samples](Report/DCGAN_RESULT.png)
 
 ### CycleGAN Translation Results — Cow ↔ Horse
 
-![CycleGAN Results](report/CYCLE_GAN_RESULT.png)
+![CycleGAN Results](Report/CYCLE_GAN_RESULT.png)
 
 ### Confusion Matrix
 
-![Confusion Matrix](report/classifier_confusion_matrix.png)
+![Confusion Matrix](Report/classifier_confusion_matrix.png)
 
 ---
 
