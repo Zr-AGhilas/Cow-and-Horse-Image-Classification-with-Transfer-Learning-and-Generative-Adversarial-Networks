@@ -126,7 +126,7 @@ CycleGAN performs **unpaired bidirectional image-to-image translation** between 
 | `D_Y` | Distinguishes real vs. fake horses |
 | `D_X` | Distinguishes real vs. fake cows |
 
-##CycleGAN model architecture
+## CycleGAN model architecture
 ![ CycleGAN model architecture](Report/CYCLE_GAN.png)
 
 **Loss components:**
