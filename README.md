@@ -126,6 +126,8 @@ CycleGAN performs **unpaired bidirectional image-to-image translation** between 
 | `D_Y` | Distinguishes real vs. fake horses |
 | `D_X` | Distinguishes real vs. fake cows |
 
+![ CycleGAN model architecture](Report/CYCLE_GAN.png)
+
 **Loss components:**
 
 $$\mathcal{L} = \mathcal{L}_{\text{GAN}}(G,D_Y) + \mathcal{L}_{\text{GAN}}(F,D_X) + \lambda_{\text{cyc}}\,\mathcal{L}_{\text{cyc}} + \lambda_{\text{id}}\,\mathcal{L}_{\text{id}}$$
