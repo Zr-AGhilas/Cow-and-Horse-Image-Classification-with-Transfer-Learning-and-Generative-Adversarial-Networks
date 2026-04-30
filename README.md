@@ -28,8 +28,8 @@ A systematic study of **binary image classification** between **Cows 🐄** and 
 │   ├── DCGAN_RESULT.png            
 │   ├── CYCLE_GAN.png                
 │   ├── CYCLE_GAN_loses.png          
-│   └── CYCLE_GAN_RESULT.png         
-│                         
+│   ├── CYCLE_GAN_RESULT.png         
+│   └── classifier_confusion_matrix.png                 
 │       
 ├── requirements.txt
 └── README.md
@@ -187,13 +187,16 @@ As a final experiment, **80 translated images** (40 Cow→Horse + 40 Horse→Cow
 ## 🖼️ Example Outputs
 
 ### DCGAN Generated Samples
-*(Add generated image here)*
+
+![DCGAN Samples](report/DCGAN_RESULT.png)
 
 ### CycleGAN Translation Results — Cow ↔ Horse
-*(Add Cow → Horse and Horse → Cow translation images here)*
+
+![CycleGAN Results](report/CYCLE_GAN_RESULT.png)
 
 ### Confusion Matrix
-*(Add confusion matrix image here)*
+
+![Confusion Matrix](report/classifier_confusion_matrix.png)
 
 ---
 
@@ -208,7 +211,7 @@ cd <repo-folder>
 pip install -r requirements.txt
 
 # Launch the notebook
-jupyter notebook notebook/Notebook_9_Best_Final_With_GAN_Checkpoints.ipynb
+jupyter notebook notebook/Notebook.ipynb
 ```
 
 ---
@@ -269,9 +272,5 @@ pip install -r requirements.txt
 ## 👨‍💻 Author
 
 **ZERROUKI Aghilas**
-University of Paris-Saclay, Évry-Courcouronnes, France
+University of Paris-Saclay, Paris, France
 📧 20251127@etud.univ-evry.fr
-
----
-
-*If you find this project useful, give it a ⭐!*
